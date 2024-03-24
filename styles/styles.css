@@ -80,9 +80,19 @@
 .why p {
   text-wrap: stable;
 }
-.why .why-image img {
-  width: 120%;
-  height: auto;
+.why a {
+  display: inline-block;
+  padding: 1rem 2rem;
+  outline: 2px solid #642b73;
+  color: #481854;
+  text-decoration: none;
+  margin-top: 3rem;
+  transition: ease 0.3s;
+}
+.why a:hover {
+  outline: none;
+  background-color: #481854;
+  color: #fff;
 }
 
 /* End */
@@ -143,7 +153,7 @@ body main .hero-banner {
   outline: 2px solid #642b73;
   color: #481854;
   text-decoration: none;
-  margin-top: 1rem;
+  margin-top: 3rem;
   margin-bottom: 2rem;
   transition: ease 0.3s;
 }
@@ -273,6 +283,9 @@ footer a {
   .why {
     flex-direction: column-reverse;
   }
+  .why h1 {
+    text-align: center;
+  }
   .why .why-image img {
     width: 100%;
   }
@@ -281,6 +294,9 @@ footer a {
     padding: 2rem 2rem;
     background-color: #f1f1f1;
     /* color: #003125; */
+  }
+  .block-rec h1 {
+    text-align: center;
   }
   .make-selection {
     padding: 2rem;
